@@ -1,0 +1,30 @@
+<!-- <h1>Angular material multi select dropdown with search Example - ItSolutionStuff.com</h1>
+        
+<p>
+  <mat-form-field>
+    <mat-select [formControl]="websiteMultiCtrl" placeholder="Website" [multiple]="true"  #multiSelect >
+      <mat-option>
+        <ngx-mat-select-search [formControl]="websiteMultiFilterCtrl"></ngx-mat-select-search>
+      </mat-option>
+  
+      <mat-option *ngFor="let website of filteredWebsitesMulti | async" [value]="website">
+        {{website.name}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+</p>
+<ul *ngFor="let website of websiteMultiCtrl?.value">
+  <li>{{website.name}}</li>
+</ul>
+<button (click)="openPopup()">Popup</button> -->
+
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <div formArrayName="checkboxes">
+    <div *ngFor="let item of  items; let i = index">
+      <input type="checkbox" [formControlName]="i">
+      {{ item.name }}
+    </div>
+  </div>
+  <button type="submit">Submit</button>
+</form>
+

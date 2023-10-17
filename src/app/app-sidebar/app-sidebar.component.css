@@ -1,0 +1,40 @@
+/* .app-sidebar {
+    background-color: #222;
+    color: #fff;
+    width: 250px;
+    padding: 20px;
+  }
+  
+  .app-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .app-sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  .app-sidebar a {
+    color: #fff;
+    text-decoration: none;
+  } */
+  .left-side-menu {
+    background-color: white;
+    width: 250px;
+    /* Add other menu styles here */
+  }
+  
+  .left-side-menu ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .left-side-menu li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .left-side-menu i {
+    margin-right: 10px;
+  }
+  

@@ -1,0 +1,470 @@
+[
+    {
+        "LabelTranslateId": 1,
+        "LanguageId": "EN",
+        "LabelName": "Email",
+        "TranslateName": "Email"
+    },
+    {
+        "LabelTranslateId": 2,
+        "LanguageId": "EN",
+        "LabelName": "User Name",
+        "TranslateName": "User Name"
+    },
+    {
+        "LabelTranslateId": 3,
+        "LanguageId": "EN",
+        "LabelName": "Role",
+        "TranslateName": "Role"
+    },
+    {
+        "LabelTranslateId": 4,
+        "LanguageId": "EN",
+        "LabelName": "Country",
+        "TranslateName": "Country"
+    },
+    {
+        "LabelTranslateId": 5,
+        "LanguageId": "EN",
+        "LabelName": "Tenant",
+        "TranslateName": "Tenant"
+    },
+    {
+        "LabelTranslateId": 6,
+        "LanguageId": "EN",
+        "LabelName": "Service Center",
+        "TranslateName": "Service Center"
+    },
+    {
+        "LabelTranslateId": 7,
+        "LanguageId": "EN",
+        "LabelName": "Language",
+        "TranslateName": "Language"
+    },
+    {
+        "LabelTranslateId": 8,
+        "LanguageId": "EN",
+        "LabelName": "Terms And Conditions",
+        "TranslateName": "Terms And Conditions"
+    },
+    {
+        "LabelTranslateId": 9,
+        "LanguageId": "EN",
+        "LabelName": "Status",
+        "TranslateName": "Status"
+    },
+    {
+        "LabelTranslateId": 10,
+        "LanguageId": "EN",
+        "LabelName": "Created Date",
+        "TranslateName": "Created Date"
+    },
+    {
+        "LabelTranslateId": 11,
+        "LanguageId": "EN",
+        "LabelName": "Modified Date",
+        "TranslateName": "Modified Date"
+    },
+    {
+        "LabelTranslateId": 12,
+        "LanguageId": "EN",
+        "LabelName": "Modified By",
+        "TranslateName": "Modified By"
+    },
+    {
+        "LabelTranslateId": 13,
+        "LanguageId": "EN",
+        "LabelName": "Corporate information",
+        "TranslateName": "Corporate information"
+    },
+    {
+        "LabelTranslateId": 14,
+        "LanguageId": "EN",
+        "LabelName": "Legal notice",
+        "TranslateName": "Legal notice"
+    },
+    {
+        "LabelTranslateId": 15,
+        "LanguageId": "EN",
+        "LabelName": "Data protection notice",
+        "TranslateName": "Data protection notice"
+    },
+    {
+        "LabelTranslateId": 16,
+        "LanguageId": "EN",
+        "LabelName": "Terms Of Use",
+        "TranslateName": "Terms Of Use"
+    },
+    {
+        "LabelTranslateId": 17,
+        "LanguageId": "EN",
+        "LabelName": "Category",
+        "TranslateName": "Category"
+    },
+    {
+        "LabelTranslateId": 18,
+        "LanguageId": "EN",
+        "LabelName": "User Management",
+        "TranslateName": "User Management"
+    },
+    {
+        "LabelTranslateId": 19,
+        "LanguageId": "EN",
+        "LabelName": "Home",
+        "TranslateName": "Home"
+    },
+    {
+        "LabelTranslateId": 20,
+        "LanguageId": "EN",
+        "LabelName": "Logout",
+        "TranslateName": "Logout"
+    },
+    {
+        "LabelTranslateId": 21,
+        "LanguageId": "EN",
+        "LabelName": "Search",
+        "TranslateName": "Search"
+    },
+    {
+        "LabelTranslateId": 22,
+        "LanguageId": "EN",
+        "LabelName": "Reset",
+        "TranslateName": "Reset"
+    },
+    {
+        "LabelTranslateId": 23,
+        "LanguageId": "EN",
+        "LabelName": "All",
+        "TranslateName": "All"
+    },
+    {
+        "LabelTranslateId": 24,
+        "LanguageId": "EN",
+        "LabelName": "Active",
+        "TranslateName": "Active"
+    },
+    {
+        "LabelTranslateId": 25,
+        "LanguageId": "EN",
+        "LabelName": "Inactive",
+        "TranslateName": "Inactive"
+    },
+    {
+        "LabelTranslateId": 26,
+        "LanguageId": "EN",
+        "LabelName": "Roles",
+        "TranslateName": "Roles"
+    },
+    {
+        "LabelTranslateId": 27,
+        "LanguageId": "EN",
+        "LabelName": "Delete",
+        "TranslateName": "Delete"
+    },
+    {
+        "LabelTranslateId": 28,
+        "LanguageId": "EN",
+        "LabelName": "Add",
+        "TranslateName": "Add"
+    },
+    {
+        "LabelTranslateId": 29,
+        "LanguageId": "EN",
+        "LabelName": "No Records Found",
+        "TranslateName": "No Records Found"
+    },
+    {
+        "LabelTranslateId": 30,
+        "LanguageId": "EN",
+        "LabelName": "Deactivate",
+        "TranslateName": "Deactivate"
+    },
+    {
+        "LabelTranslateId": 31,
+        "LanguageId": "EN",
+        "LabelName": "Activate",
+        "TranslateName": "Activate"
+    },
+    {
+        "LabelTranslateId": 32,
+        "LanguageId": "EN",
+        "LabelName": "Modify",
+        "TranslateName": "Modify"
+    },
+    {
+        "LabelTranslateId": 33,
+        "LanguageId": "EN",
+        "LabelName": "Cancel",
+        "TranslateName": "Cancel"
+    },
+    {
+        "LabelTranslateId": 34,
+        "LanguageId": "EN",
+        "LabelName": "Submit",
+        "TranslateName": "Submit"
+    },
+    {
+        "LabelTranslateId": 35,
+        "LanguageId": "EN",
+        "LabelName": "Select Country",
+        "TranslateName": "Select Country"
+    },
+    {
+        "LabelTranslateId": 36,
+        "LanguageId": "EN",
+        "LabelName": "Select Tenant",
+        "TranslateName": "Select Tenant"
+    },
+    {
+        "LabelTranslateId": 37,
+        "LanguageId": "EN",
+        "LabelName": "Select Service Center",
+        "TranslateName": "Select Service Center"
+    },
+    {
+        "LabelTranslateId": 38,
+        "LanguageId": "EN",
+        "LabelName": "Tenant",
+        "TranslateName": "Tenant"
+    },
+    {
+        "LabelTranslateId": 39,
+        "LanguageId": "EN",
+        "LabelName": "Service Center",
+        "TranslateName": "Service Center"
+    },
+    {
+        "LabelTranslateId": 1,
+        "LanguageId": "DE",
+        "LabelName": "Email",
+        "TranslateName": "Email"
+    },
+    {
+        "LabelTranslateId": 2,
+        "LanguageId": "DE",
+        "LabelName": "User Name",
+        "TranslateName": "Nutzername"
+    },
+    {
+        "LabelTranslateId": 3,
+        "LanguageId": "DE",
+        "LabelName": "Role",
+        "TranslateName": "Rolle"
+    },
+    {
+        "LabelTranslateId": 4,
+        "LanguageId": "DE",
+        "LabelName": "Country",
+        "TranslateName": "Land"
+    },
+    {
+        "LabelTranslateId": 5,
+        "LanguageId": "DE",
+        "LabelName": "Tenant",
+        "TranslateName": "Mieter"
+    },
+    {
+        "LabelTranslateId": 6,
+        "LanguageId": "DE",
+        "LabelName": "Service Center",
+        "TranslateName": "Servicecenter"
+    },
+    {
+        "LabelTranslateId": 7,
+        "LanguageId": "DE",
+        "LabelName": "Language",
+        "TranslateName": "Sprache"
+    },
+    {
+        "LabelTranslateId": 8,
+        "LanguageId": "DE",
+        "LabelName": "Terms And Conditions",
+        "TranslateName": "Geschäftsbedingungen"
+    },
+    {
+        "LabelTranslateId": 9,
+        "LanguageId": "DE",
+        "LabelName": "Status",
+        "TranslateName": "Status"
+    },
+    {
+        "LabelTranslateId": 10,
+        "LanguageId": "DE",
+        "LabelName": "Created Date",
+        "TranslateName": "Erstellungsdatum"
+    },
+    {
+        "LabelTranslateId": 11,
+        "LanguageId": "DE",
+        "LabelName": "Modified Date",
+        "TranslateName": "Änderungsdatum"
+    },
+    {
+        "LabelTranslateId": 12,
+        "LanguageId": "DE",
+        "LabelName": "Modified By",
+        "TranslateName": "Angepasst von"
+    },
+    {
+        "LabelTranslateId": 13,
+        "LanguageId": "DE",
+        "LabelName": "Corporate information",
+        "TranslateName": "Unternehmensinformationen"
+    },
+    {
+        "LabelTranslateId": 14,
+        "LanguageId": "DE",
+        "LabelName": "Legal notice",
+        "TranslateName": "Impressum"
+    },
+    {
+        "LabelTranslateId": 15,
+        "LanguageId": "DE",
+        "LabelName": "Data protection notice",
+        "TranslateName": "Datenschutzhinweis"
+    },
+    {
+        "LabelTranslateId": 16,
+        "LanguageId": "DE",
+        "LabelName": "Terms Of Use",
+        "TranslateName": "Nutzungsbedingungen"
+    },
+    {
+        "LabelTranslateId": 17,
+        "LanguageId": "DE",
+        "LabelName": "Category",
+        "TranslateName": "Kategorie"
+    },
+    {
+        "LabelTranslateId": 18,
+        "LanguageId": "DE",
+        "LabelName": "User Management",
+        "TranslateName": "Benutzerverwaltung"
+    },
+    {
+        "LabelTranslateId": 19,
+        "LanguageId": "DE",
+        "LabelName": "Home",
+        "TranslateName": "Heim"
+    },
+    {
+        "LabelTranslateId": 20,
+        "LanguageId": "DE",
+        "LabelName": "Logout",
+        "TranslateName": "Ausloggen"
+    },
+    {
+        "LabelTranslateId": 21,
+        "LanguageId": "DE",
+        "LabelName": "Search",
+        "TranslateName": "Suchen"
+    },
+    {
+        "LabelTranslateId": 22,
+        "LanguageId": "DE",
+        "LabelName": "Reset",
+        "TranslateName": "Zurücksetzen"
+    },
+    {
+        "LabelTranslateId": 23,
+        "LanguageId": "DE",
+        "LabelName": "All",
+        "TranslateName": "Alle"
+    },
+    {
+        "LabelTranslateId": 24,
+        "LanguageId": "DE",
+        "LabelName": "Active",
+        "TranslateName": "Aktiv"
+    },
+    {
+        "LabelTranslateId": 25,
+        "LanguageId": "DE",
+        "LabelName": "Inactive",
+        "TranslateName": "Inaktiv"
+    },
+    {
+    "LabelTranslateId": 26,
+    "LanguageId": "DE",
+    "LabelName": "Roles",
+    "TranslateName": "Rollen"
+     },
+     {
+        "LabelTranslateId": 27,
+        "LanguageId": "DE",
+        "LabelName": "Delete",
+        "TranslateName": "Löschen"
+    },
+    {
+        "LabelTranslateId": 28,
+        "LanguageId": "DE",
+        "LabelName": "Add",
+        "TranslateName": "Hinzufügen"
+    },
+    {
+        "LabelTranslateId": 29,
+        "LanguageId": "DE",
+        "LabelName": "No Records Found",
+        "TranslateName": "Keine Aufzeichnungen gefunden"
+    },
+    {
+        "LabelTranslateId": 30,
+        "LanguageId": "DE",
+        "LabelName": "Deactivate",
+        "TranslateName": "Deaktivieren"
+    },
+    {
+        "LabelTranslateId": 31,
+        "LanguageId": "DE",
+        "LabelName": "Activate",
+        "TranslateName": "Aktivieren Sie"
+    },
+    {
+        "LabelTranslateId": 32,
+        "LanguageId": "DE",
+        "LabelName": "Modify",
+        "TranslateName": "Bearbeiten"
+    },
+    {
+        "LabelTranslateId": 33,
+        "LanguageId": "DE",
+        "LabelName": "Cancel",
+        "TranslateName": "Stornieren"
+    },
+    {
+        "LabelTranslateId": 34,
+        "LanguageId": "DE",
+        "LabelName": "Submit",
+        "TranslateName": "Einreichen"
+    },
+    {
+        "LabelTranslateId": 35,
+        "LanguageId": "DE",
+        "LabelName": "Select Country",
+        "TranslateName": "Land auswählen"
+    },
+    {
+        "LabelTranslateId": 36,
+        "LanguageId": "DE",
+        "LabelName": "Select Tenant",
+        "TranslateName": "Wählen Sie Mieter aus"
+    },
+    {
+        "LabelTranslateId": 37,
+        "LanguageId": "DE",
+        "LabelName": "Select Service Center",
+        "TranslateName": "Wählen Sie Service Center"
+    },
+    {
+        "LabelTranslateId": 38,
+        "LanguageId": "DE",
+        "LabelName": "Tenant",
+        "TranslateName": "Mieter"
+    },
+    {
+        "LabelTranslateId": 39,
+        "LanguageId": "DE",
+        "LabelName": "Service Center",
+        "TranslateName": "Service Center"
+    }
+]

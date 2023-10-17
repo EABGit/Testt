@@ -1,0 +1,205 @@
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <!-- <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+     <title>Full-Width Column Example</title> -->
+ </head>
+ <body>
+     <div class="container">
+         <form [formGroup]="buildForm">
+        <div class="row"> 
+             <div class="col-md-6">
+                 <div>
+                     <h2>Test_Environment</h2>
+                 </div>
+                 <div>
+                     <h3>*Choose the Test Environment</h3>
+                 </div>
+                  <mat-form-field>
+                     <label for="selectedItems">Select Items</label> <!-- Use a regular <label> element -->
+                     <mat-select formControlName="environment"  id="environment"> <!-- Add an id attribute for accessibility -->
+                       <mat-option *ngFor="let item of environment" [value]="item.value">{{ item.label }}</mat-option>
+                     </mat-select>
+                   </mat-form-field>
+                   <div *ngIf="buildForm.get('environment')?.hasError('required') && buildForm.get('environment')?.touched">
+                     <div  class="error-message">Please select a environment.</div>
+                   </div>
+             </div>
+               <div class="col-md-6">
+                 <div>
+                   <h2>Microservices</h2>
+                 </div>
+                 <div>
+                   <h3>*Choose the Microservices</h3>
+                 </div>
+                 <mat-form-field>
+                   <label for="selectedMicroservice">Select Microservices</label>
+                   <mat-select formControlName="selectedMicroservice" id="selectedMicroservice">
+                     <mat-option *ngFor="let microservice of microservices" [value]="microservice.value">{{ microservice.label }}</mat-option>
+                   </mat-select>
+                 </mat-form-field>
+                 <div *ngIf="buildForm.get('selectedMicroservice')?.hasError('required') && buildForm.get('selectedMicroservice')?.touched">
+                     <div  class="error-message">Please select Microservice.</div>
+                   </div>
+               </div>
+               <div class="col-md-6">
+                 <div>
+                   <h2>Brand_Name</h2>
+                 </div>
+                 <div>
+                   <h3>*Choose the Brand</h3>
+                 </div>
+                 <mat-form-field *ngIf="BrandNames">
+                   <label for="selectedBrand">Select Brand</label>
+                   <mat-select formControlName="selectedBrand" id="selectedBrand" (ngModelChange)="onBrandNameChange($event)">
+                     <mat-option *ngFor="let brand of brandNames" [value]="brand">{{ brand.brandName }}</mat-option>
+                   </mat-select>
+                 </mat-form-field>
+                 <div *ngIf="buildForm.get('selectedBrand')?.hasError('required') && buildForm.get('selectedBrand')?.touched">
+                     <div  class="error-message">Please select Brand.</div>
+                   </div>
+               </div>
+             <div class="col-md-6">
+                 <div>
+                     <h2>Source_Type</h2>
+                 </div>
+                 <div>
+                     <h3>*Choose the Source_Type</h3>
+                 </div>
+                  <mat-form-field *ngIf="sourceTypeList">
+                     <label for="sourceType">Select Items</label> <!-- Use a regular <label> element -->
+                     <mat-select formControlName="sourceType"  id="sourceType"> <!-- Add an id attribute for accessibility -->
+                       <mat-option *ngFor="let item of sourceTypes" [value]="item.sourceName">{{ item.sourceName }}</mat-option>
+                     </mat-select>
+                   </mat-form-field>
+                   <div *ngIf="buildForm.get('sourceType')?.hasError('required') && buildForm.get('sourceType')?.touched">
+                     <div  class="error-message">Please select sourceType.</div>
+                   </div>
+             </div>
+             <div class="col-md-6">
+                 <div>
+                     <h2>IFU</h2>
+                 </div>
+                 <div>
+                     <h3>*Choose the IFU</h3>
+                 </div>
+                  <mat-form-field>
+                     <label for="selectedifu">Select Items</label> <!-- Use a regular <label> element -->
+                     <mat-select formControlName="selectedifu"  id="selectedifu"> <!-- Add an id attribute for accessibility -->
+                       <mat-option *ngFor="let item of items2" [value]="item.value">{{ item.label }}</mat-option>
+                     </mat-select>
+                   </mat-form-field>
+                   <div *ngIf="buildForm.get('selectedifu')?.hasError('required') && buildForm.get('selectedifu')?.touched">
+                     <div  class="error-message">Please select IFU.</div>
+                   </div>
+             </div>
+             <div class="col-md-6">
+              <div>
+                  <h2>*Language</h2>
+              </div>
+              <!-- <mat-form-field>
+                <mat-select formControlName="selectedWebsites" id="selectedWebsites" placeholder="Language" [multiple]="true" #multiSelect>
+                  <mat-option>
+                    <ngx-mat-select-search [formControl]="websiteMultiFilterCtrl"></ngx-mat-select-search>
+                  </mat-option>
+            
+                  <mat-option *ngFor="let website of filteredWebsitesMulti | async" [value]="website.name">
+                    {{ website.name }}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field> -->
+              <div formArrayName="checkboxes">
+                <div *ngFor="let item of  items; let i = index">
+                  <input type="checkbox" [formControlName]="i">
+                  {{ item.name }}
+                </div>
+              </div>
+          </div>
+          <div class="col-md-6">
+            <div>
+                <h2>*Model_Name</h2>
+            </div>
+            <mat-form-field>
+              <mat-select formControlName="selectedModelNames" id="selectedModelNames" placeholder="ModelName"  (opened)="onModelNameSelectionChange($event)" [multiple]="true" #multiSelectModelName>
+                <mat-option>
+                  <ngx-mat-select-search [formControl]="modelnameMultiFilterCtrl"></ngx-mat-select-search>
+                </mat-option>
+          
+                <mat-option *ngFor="let website of modelNameList" [value]="website.saleS_TYPE">
+                  {{ website.saleS_TYPE }}
+                </mat-option>
+              </mat-select>
+             
+            </mat-form-field>
+            <div class="error1">{{ modelError }}</div>
+         
+        </div>
+        <div class="col-md-6">
+          <div>
+              <h2>*Delivery_Version</h2>
+          </div>
+          
+          <mat-form-field appearance="outline">
+             
+              <input formControlName="deliveryVersion" id="deliveryVersion" matInput >
+            </mat-form-field>
+            <div *ngIf="buildForm.get('deliveryVersion')?.hasError('required') && buildForm.get('deliveryVersion')?.touched">
+              <div  class="error-message">Please DeliveryVersion.</div>
+            </div>
+      </div>
+        <div class="col-md-6">
+                 <div>
+                     <h2>Table_Name </h2>
+                 </div>
+                 <div>
+                     <h3>*Enter the Model Name</h3>
+                 </div>
+                 <mat-form-field>
+                    
+                     <input formControlName="testcaseNumber" id="testcaseNumber" matInput >               
+                   </mat-form-field>
+                   <div *ngIf="buildForm.get('testcaseNumber')?.hasError('required') && buildForm.get('testcaseNumber')?.touched">
+                     <div  class="error-message">Please select test case number.</div>
+                   </div>
+             </div>
+             <div class="col-md-6">
+              <div>
+                  <h2>Testcase_No </h2>
+              </div>
+              <div>
+                  <h3>*Enter the Model Name</h3>
+              </div>
+              <mat-form-field>
+                 
+                  <input formControlName="tableName" id="tableName" matInput >               
+                </mat-form-field>
+                <div *ngIf="buildForm.get('tableName')?.hasError('required') && buildForm.get('tableName')?.touched">
+                  <div  class="error-message">Please select test case number.</div>
+                </div>
+          </div>
+        
+         </div>
+         <!-- <button type="submit" [disabled]="!formGroup.valid">Submit</button> -->
+  <div class="button">
+    <button  (click)="onSubmit()" mat-raised-button color="accent">build</button> 
+  </div>
+         <!-- <button (click)="openConfirmationModal()" mat-raised-button color="accent">Build</button> -->
+     </form>
+     </div>
+   
+     <!-- Bootstrap JS and jQuery (optional) -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+     <div class="o-bosch__footer">
+         <div class="o-bosch__wrapper">
+           <p class="o-bosch__copyright">© Bosch Limited 2023, all rights reserved</p>
+         </div>
+       </div>
+       <script src="frontend-kit/frontend-kit.js"></script>
+ </body>
+ </html>
+ 

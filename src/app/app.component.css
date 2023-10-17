@@ -1,0 +1,33 @@
+
+  .extra{
+    flex: 1 1 auto;
+  }
+  .sidenav-wrapper {
+    position: absolute;
+    top: 60px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #eee;
+  }
+  .mat-sidenav{
+    width: 200px;
+    padding: 20px;
+    background-color: #eee;
+  }
+  .mat-sidenav-content{
+/* display: flex;
+justify-content: center;
+align-items: center;
+font-size: 44px;
+background-color: #eee;
+top: 5px; */
+/* display: flex;
+  justify-content: center;
+  font-size: 44px;
+  background-color: #eee;
+  position: absolute;
+  top: 30px;
+  left: 40%;
+  transform: translateX(-50%); */
+  }

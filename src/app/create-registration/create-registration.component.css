@@ -1,0 +1,27 @@
+
+.registration-form {
+    margin-top: 20px; /* Adjust the margin to match the height of your toolbar */
+    position: Fixed; /* Keeps the content fixed within its container */
+    top: 20%;
+    right: 50%;
+    align-items: center;
+/* Places it at the bottom of the container */
+    /* Enables scrolling if the content overflows the container */
+    /* transform: translate(-50%, -50%); */
+    
+}
+.logo {
+    position: fixed;
+    top: 10%;
+    left: 20%;
+    right: 50%;
+  } 
+  .mat-form-field{
+width: 100%;
+  }
+  .center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed to center within the viewport */
+  }
